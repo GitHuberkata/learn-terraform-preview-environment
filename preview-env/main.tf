@@ -6,7 +6,7 @@ data "terraform_remote_state" "shared" {
   backend = "remote"
 
   config = {
-    organization = "hashicorp-training"
+    organization = "petya-business-org"
     workspaces = {
       name = "hcup-be-shared"
     }
